@@ -95,7 +95,3 @@ For any questions or inquiries, please contact me at vikashhshakya@gmail.com.
 ## Acknowledgments
 
 I would like to thank Encryptix for the opportunity to work on this project and for their support throughout my internship.
-
----
-
-Replace placeholders such as `vikashshakya1`, `vikashhshakya@gmail.com`, and any other placeholders with your actual information. Adjust the progress and next steps section as needed based on your current status and future plans for the project.
