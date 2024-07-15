@@ -1,97 +1,80 @@
-# Titanic Survival Predictions
+# Data Science Internship at Encryptix
 
-## Overview
+Welcome to the repository documenting my Data Science Internship at Encryptix. During this internship, I had the opportunity to work on three major projects: Titanic Survival Prediction, Movie Rating Prediction with Python, and Credit Card Fraud Detection. Below you will find an overview of each project, including objectives, methodologies, and key outcomes.
 
-Welcome to the Titanic Survival Predictions project! This project is being developed as part of my ongoing data science internship at Encryptix. The goal is to predict the survival of passengers on the Titanic using various machine learning techniques. This README provides an overview of the project, installation instructions, and details on how to run the code.
+## Table of Contents
 
-## Project Description
+- [Titanic Survival Prediction](#titanic-survival-prediction)
+- [Movie Rating Prediction with Python](#movie-rating-prediction-with-python)
+- [Credit Card Fraud Detection](#credit-card-fraud-detection)
+- [Tools and Technologies](#tools-and-technologies)
+- [Conclusion](#conclusion)
 
-The Titanic Survival Predictions project involves building a machine learning model to predict whether a passenger survived the Titanic disaster. The project includes:
+## Titanic Survival Prediction
 
-- **Data Analysis and Preprocessing**: Handling missing values, feature engineering, and data transformation.
-- **Exploratory Data Analysis (EDA)**: Visualizing data to uncover patterns and relationships.
-- **Model Implementation**: Training various machine learning models to predict survival.
-- **Model Evaluation**: Evaluating model performance using different metrics.
+### Objectives
+- Predict the survival of passengers aboard the Titanic.
+- Analyze historical passenger data to identify key factors influencing survival rates.
 
-## Key Features
+### Methodologies
+- **Data Collection and Cleaning**: Used the Titanic dataset from Kaggle.
+- **Feature Engineering**: Created new features like FamilySize and Title.
+- **Model Building**: Implemented Logistic Regression, Decision Trees, Random Forests, and Gradient Boosting.
+- **Evaluation**: Assessed models using accuracy, precision, recall, and F1-score.
 
-- Data preprocessing and cleaning
-- Feature engineering
-- Exploratory data analysis with visualizations
-- Machine learning model training and evaluation
+### Key Outcomes
+- Identified key features such as Age, Sex, Pclass, and Fare that significantly influence survival.
+- Achieved a high accuracy with Gradient Boosting and Random Forest models.
 
-## Libraries and Tools Used
+## Movie Rating Prediction with Python
 
-- Python
-- pandas
-- numpy
-- seaborn
-- matplotlib
-- scikit-learn
+### Objectives
+- Build a model to predict the rating of a movie based on features like genre, director, and actors.
+- Analyze historical movie data to understand factors influencing movie ratings.
 
-## Installation
+### Methodologies
+- **Data Collection and Cleaning**: Collected movie datasets from IMDb.
+- **Feature Engineering**: Extracted features such as Genre, Director, Actors, and Runtime.
+- **Model Building**: Used Linear Regression, Decision Trees, Random Forests, Gradient Boosting, and Neural Networks.
+- **Evaluation**: Evaluated models using metrics like RMSE, MAE, and R² score.
 
-To run this project locally, follow these steps:
+### Key Outcomes
+- Discovered that features such as Genre, Director, and Runtime have a significant impact on movie ratings.
+- Gradient Boosting and Random Forest models provided the most accurate predictions.
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/titanic-survival-predictions.git
-   ```
-2. **Navigate to the project directory**:
-   ```bash
-   cd titanic-survival-predictions
-   ```
-3. **Create a virtual environment** (optional but recommended):
-   ```bash
-   python -m venv env
-   source env/bin/activate  # On Windows use `env\Scripts\activate`
-   ```
-4. **Install the required dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+## Credit Card Fraud Detection
 
-## Usage
+### Objectives
+- Detect fraudulent credit card transactions.
+- Develop a model to differentiate between legitimate and fraudulent transactions.
 
-To run the project, follow these steps:
+### Methodologies
+- **Data Collection and Cleaning**: Used a credit card transaction dataset with anonymized features.
+- **Data Preprocessing**: Handled missing values, scaled features, and balanced the dataset using SMOTE.
+- **Feature Engineering**: Created additional features to improve model performance.
+- **Model Building**: Implemented Logistic Regression, Decision Trees, Random Forests, Gradient Boosting Machines (XGBoost, LightGBM, CatBoost), and Neural Networks.
+- **Evaluation**: Used accuracy, precision, recall, F1-score, and AUC-ROC for model evaluation.
 
-1. **Run the Jupyter Notebook**:
-   Open the Jupyter Notebook file `Titanic_Survival_Predictions.ipynb` and run all cells to see the data analysis, model training, and evaluation process.
+### Key Outcomes
+- Ensemble methods like LightGBM and CatBoost demonstrated superior performance in detecting fraudulent transactions.
+- Identified key factors influencing fraud, such as transaction amount and time.
 
-2. **Main Script**:
-   Alternatively, you can run the main Python script if available:
-   ```bash
-   python main.py
-   ```
-## Progress and Next Steps
+## Tools and Technologies
 
-### Completed:
-- Data loading and initial cleaning
-- Basic exploratory data analysis (EDA)
-- Initial feature engineering
-- Advanced feature engineering
-- Model training with multiple algorithms
-- Model evaluation and tuning
-- Finalizing the model and preparing a report
+- **Programming Languages**: Python
+- **Libraries and Frameworks**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, XGBoost, LightGBM, CatBoost, TensorFlow, Keras
+- **Data Processing**: Jupyter Notebooks
+- **Version Control**: Git and GitHub
 
-### Upcoming:
-- Movie Rating Predictions
-    - Data loading and initial cleaning
-    - Basic exploratory data analysis (EDA)
-    - Initial feature engineering
-    - Advanced feature engineering
-    - Model training with multiple algorithms
-    - Model evaluation and tuning
-    - Finalizing the model and preparing a report
+## Conclusion
 
-## Contributing
+During my internship at Encryptix, I successfully completed three significant data science projects. These projects enhanced my understanding of data preprocessing, feature engineering, model building, and evaluation. The experience also honed my skills in using various machine learning algorithms and tools, preparing me for future challenges in the field of data science.
 
-If you would like to contribute to this project, please fork the repository and create a pull request with your changes.
+Feel free to explore the individual project folders for detailed notebooks, datasets, and code implementations. Thank you for visiting my repository!
 
-## Contact
+---
 
-For any questions or inquiries, please contact me at vikashhshakya@gmail.com.
-
-## Acknowledgments
-
-I would like to thank Encryptix for the opportunity to work on this project and for their support throughout my internship.
+**Author**: Vikash Shakya 
+**Internship Duration**: 12 June 2024 - 12 July 2024  
+**Email**: vikashhshakya@gmail.com
+**LinkedIn**:https://www.linkedin.com/in/vikash-shakya-351469218/
